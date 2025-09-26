@@ -15,22 +15,11 @@
     font-weight: 700 !important;
 }
 
-.back-to-top {
-    position: fixed;
-    right: 45px;
-    bottom: 45px;
-    z-index: 99;
-}
-@media (max-height : 400px){
-    .back-to-top{
-        display: flex; 
-    }
-}
 
 
 
 .btn {
-    font-family: 'Nunito', sans-serif;
+   
     font-weight: 600;
     transition: .5s;
 }
@@ -448,4 +437,13 @@ h5{
 .bg-primary {
     background-color: #06BBCC !important;
 }
+
+.back-to-top {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+   
+}
+
+
 
